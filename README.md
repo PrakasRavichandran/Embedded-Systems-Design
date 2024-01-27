@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./embed.png" alt="Embedded-Systems-Design" width="300">
+</p>
+
 # Embedded System Design: Steps in the Design Process
 
 An Embedded system is a controller that controls many other electronic devices. It is a combination of embedded hardware and software, including microprocessors and micro-controllers. This article discusses the steps involved in embedded system design.
@@ -137,25 +141,25 @@ Designers face challenges in testing like embedded hardware testing, verificatio
 
 
 ```mermaid
-graph LR;
+graph TD;
 
-A[Abstract Problem] -->|Gain Knowledge| B[Hardware-Software Architecture]
-B -->|Understand Functions| C[Extra Functional Properties]
-C -->|Refer to Previous Design| D[System Related Family of Design]
-D -->|Create Module Designs| E[Modular Design]
-E -->|Map Data Flow| F[Mapping]
-F -->|Consider User Requirements| G[User Interface Design]
-G -->|Refine Components| H[Refinement]
-H -->|Define Structure| I[Control Hierarchy]
+A[Abstract the problem] -->|Gain knowledge of hardware and software| B[Hardware - Software Architecture]
+B -->|Understand additional functions| C[Extra Functional Properties]
+C -->|Refer to a previous system-related family of design| D[System Related Family of Design]
+D -->|Create separate module designs| E[Modular Design]
+E -->|Map data flow and program flow| F[Mapping]
+F -->|Consider user requirements| G[User Interface Design]
+G -->|Refine components and modules| H[Refinement]
+H -->|Define partition of structure, data structure, and hierarchy| I[Control Hierarchy]
 
-J[Define Specifications] -->|Specify Architecture| K[Design Software]
-K -->|Integrate System| L[System Integration & Testing]
+J[Define specifications] -->|Specify architecture| K[Embedded System Design Software Development Process Activities]
+K -->|Design components| L[System integration and testing]
 
-N[Environment Adaptability] -->|Power Consumption| O[Challenges in Design]
-O -->|Area Occupied| P[Packaging & Integration]
-P -->|Updating Hardware & Software| Q[Challenges in Testing]
-Q -->|Security| R[Embedded Hardware Testing]
-R -->|Verification Stage| S[Validation & Maintainability]
+N[Environment Adaptability] -->|Power Consumption| O[Challenges in Embedded System Design]
+O -->|Area Occupied| P[Packaging and Integration]
+P -->|Updating in Hardware and Software| Q[Challenges in Testing]
+Q -->|Security| R[Embedded hardware testing]
+R -->|Verification stage| S[Validation maintainability]
 ```
 
 
