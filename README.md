@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./embed.png" alt="Embedded-Systems-Design" width="300">
+  <img src="./embed.png" alt="Embedded-Systems-Design" width="150">
 </p>
 
 # Embedded System Design: Steps in the Design Process
