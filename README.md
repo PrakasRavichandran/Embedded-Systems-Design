@@ -1,9 +1,9 @@
-<p align="center">
-  <img src="./embed.png" alt="Embedded-Systems-Design" width="150">
-</p>
+<img src="./embed.png" width="144" align="right" hspace="0" />
 
-# Embedded System Design: Steps in the Design Process
+✨ &nbsp;Embedded System Design: Steps in the Design Process
+======
 
+<br>
 An Embedded system is a controller that controls many other electronic devices. It is a combination of embedded hardware and software, including microprocessors and micro-controllers. This article discusses the steps involved in embedded system design.
 
 ## Embedded System Design
